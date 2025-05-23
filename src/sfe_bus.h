@@ -48,8 +48,9 @@
 
 #ifdef SFE_ENABLE_SPI_SUPPORT
 #include <SPI.h>
-#endif
 #include <Wire.h>
+#endif
+
 
 namespace sfe_STHS34PF80
 {
