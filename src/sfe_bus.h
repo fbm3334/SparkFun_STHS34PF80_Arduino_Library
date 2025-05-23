@@ -46,7 +46,7 @@
 
 #pragma once
 
-#if defined(SFE_ENABLE_SPI_SUPPORT) || defined(PLATFORMIO)
+#if defined(SFE_ENABLE_SPI_SUPPORT)
 #include <SPI.h>
 #endif
 #include <Wire.h>
