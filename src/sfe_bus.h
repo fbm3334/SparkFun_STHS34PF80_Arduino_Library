@@ -46,7 +46,9 @@
 
 #pragma once
 
+#if defined(SFE_ENABLE_SPI_SUPPORT) || defined(PLATFORMIO)
 #include <SPI.h>
+#endif
 #include <Wire.h>
 
 namespace sfe_STHS34PF80
